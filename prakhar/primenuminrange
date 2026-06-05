@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int startnum , endnum , i, j;
+
+    printf("Enter starting number: ");
+    scanf("%d", &startnum);
+
+    printf("Enter ending number: ");
+    scanf("%d", &endnum);
+
+    printf("Prime numbers are:\n");
+
+    for(i = startnum; i <= endnum ; i++) {
+        if(i < 2) {
+            continue;
+        }
+
+        for(j = 2; j < i; j++) {
+            if(i % j == 0) {
+                break;
+            }
+        }
+
+        if(j == i) {
+            printf("%d ", i);
+        }
+    }
+
+    return 0;
+}
