@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main (){
+    int i , num , p = 0 ;
+
+    printf ("Enter the the number : ");
+    scanf (" %d", num);
+
+    for ( i = 1 ; i <= num ; i++){
+        if ( i * i == num){
+            p = 1 ;
+            break ;
+        }
+    }
+
+    if ( p = 1 ){
+        printf ("The given number i a perfect square \n", num);
+    }
+    else {
+        printf ("The given number is not a perfect square \n",num);
+    }
+    return 0;
+}
