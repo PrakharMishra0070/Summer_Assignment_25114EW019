@@ -4,7 +4,7 @@ int main ()
     int n ,i ,j ;
 
     printf("Enter the number of row : ") ;
-    sacnf ("%d" , n ) ;
+    sacnf ("%d" , &n ) ;
 
     for ( i =1 ; i <= n ; i++)
     {
