@@ -21,5 +21,5 @@ int armstrong ( int  n )
     else 
     printf ("Not Armstrong") ;
 
-    return 0 ;
+    return 0 ;      
  }
