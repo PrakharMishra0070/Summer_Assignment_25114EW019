@@ -29,8 +29,8 @@ int main()
         scanf("%d",&item[i].qty);
 
         printf("Price: ");
-        scanf("%f",&item[i].price);
-    }
+        scanf("%f",&item[i].price);  
+    }                              
 
     printf("\nInventory Details\n");
 
